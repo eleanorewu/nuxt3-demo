@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <Header />
-    <slot />
-    <Footer />
-  </div>
+  <button>click</button>
 </template>
 
 <script setup></script>

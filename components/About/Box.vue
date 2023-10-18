@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <Header />
-    <slot />
-    <Footer />
-  </div>
+  <div>Component: about page box</div>
 </template>
 
 <script setup></script>
