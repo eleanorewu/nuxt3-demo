@@ -1,4 +1,8 @@
-# Nuxt 3 Minimal Starter
+
+# Demo
+https://eleanorewu.github.io/nuxt3-demo/  
+
+##  Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
