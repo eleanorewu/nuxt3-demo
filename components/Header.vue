@@ -2,9 +2,7 @@
 
 <template>
   <div>
-    <Header />
-    <slot />
-    <Footer />
+    Component: Header
   </div>
 </template>
 
