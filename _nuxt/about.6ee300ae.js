@@ -1,1 +1,0 @@
-import{_ as e,m as n,q as o,v as s,s as a}from"./entry.194504e9.js";const r={};function u(t,c){return n(),o("div",null,"Component: about page box")}const d=e(r,[["render",u]]),l={},f=a("h1",null,"about",-1);function m(t,c){const _=d;return n(),o("div",null,[f,s(_)])}const p=e(l,[["render",m]]);export{p as default};
