@@ -1,6 +1,9 @@
 <template>
   <div>
-    <button>主題模式 {{ $colorMode.value }}</button>
+    <button>
+      <font-awesome-icon icon="fa-solid fa-circle-half-stroke" />主題模式
+      {{ $colorMode.value }}
+    </button>
     <div class="msg-box">
       <img
         class="avatar"

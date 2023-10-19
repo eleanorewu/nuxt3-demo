@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
-    '@/assets/css/style.css'
+    '@/assets/css/style.css','@fortawesome/fontawesome-svg-core/styles.css'
   ],
   "app": {
     "head": {
