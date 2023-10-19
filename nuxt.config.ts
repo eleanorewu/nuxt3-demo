@@ -7,12 +7,12 @@ export default defineNuxtConfig({
   "app": {
     "head": {
       "viewport": "width=500, initial-scale=1",
-      "title": "Nuxt3 高效入門全攻略",
+      "title": "2024救世貓貓",
       "meta": [
-          { "name": "description", "content": "這是 Mike 的 Nuxt3 高效入門全攻略課程" },
-          { "property": "og:title", "content": "Nuxt3 高效入門全攻略" },
+          { "name": "description", "content": "這是 救世貓貓的競選網站" },
+          { "property": "og:title", "content": "2024救世貓貓" },
           { "property": "og:url", "content": "http://localhost:3000/" },
-          { "property": "og:description", "content": "這是 Mike 的 Nuxt3 高效入門全攻略課程" },
+          { "property": "og:description", "content": "這是 救世貓貓的競選網站" },
       ]
     }
   }, 

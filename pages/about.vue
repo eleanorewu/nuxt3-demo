@@ -6,10 +6,10 @@
 </template>
 <script setup>
 useSeoMeta({
-  title: "About - Nuxt3 高效入門全攻略",
-  description: "關於我們 - 最棒的Nuxt3的線上課程",
-  ogDescription: "關於我們 - 最棒的Nuxt3的線上課程",
-  ogTitle: "About - Nuxt3 高效入門全攻略",
+  title: "About - 2024救世貓貓",
+  description: "關於貓貓 - 未來就靠貓咪來拯救",
+  ogDescription: "關於貓貓 - 未來就靠貓咪來拯救",
+  ogTitle: "About - 2024救世貓貓",
   //  ogImage: "",
 });
 useHead({
