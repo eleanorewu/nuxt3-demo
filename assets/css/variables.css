@@ -47,7 +47,6 @@
 .dark-mode {
   --color-text: #ebf4f1;
   --color-primary: #7926d8;
-  --color-secondary: #fdf9f3;
   --bg: #121212;
   --border-color: #3b3b3b;
   --msg-border-color: var(--color-gray-700);
@@ -56,7 +55,6 @@
 .light-mode {
   --color-text: #1a1a1a;
   --color-primary: #bf95ef;
-  --color-secondary: #101010;
   --bg: #ffffff;
   --border-color: #dadada;
   --msg-border-color: var(--color-gray-200);

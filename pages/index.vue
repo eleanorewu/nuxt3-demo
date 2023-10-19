@@ -51,21 +51,21 @@ h1 {
 .msg-box {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
   animation: openin 1s ease-in-out;
   gap: 0.5rem;
   margin: 1rem;
   & img {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 4rem;
+    height: 4rem;
     object-fit: cover;
-    border-radius: 2rem;
+    border-radius: 4rem;
     overflow: hidden;
     border: 1px solid var(--border-color);
   }
   & .msg {
-    font-size: 1.25rem;
-    padding: 0.5rem 0.75rem;
+    font-size: 1.75rem;
+    padding: 0.75rem 1rem;
     color: var(--color-text);
     background-color: var(--bg);
     border: 1px solid var(--msg-border-color);
