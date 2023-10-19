@@ -1,7 +1,19 @@
 <template>
-  <div>Component: Footer</div>
+  <div class="footer">Footer</div>
 </template>
 
 <script setup></script>
 
-<style scoped></style>
+<style scoped>
+.footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+}
+</style>
