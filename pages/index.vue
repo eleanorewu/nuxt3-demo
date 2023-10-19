@@ -5,7 +5,6 @@
       <option value="system">System</option>
       <option value="light">Light</option>
       <option value="dark">Dark</option>
-      <option value="sepia">Sepia</option>
     </select>
     <ul>
       <li><NuxtLink to="/about" title="關於我們">關於我們</NuxtLink></li>
@@ -33,17 +32,10 @@ console.log(colorMode.preference);
 
 <style scoped>
 body {
-  background-color: #fff;
-  color: rgba(0, 0, 0, 0.8);
+  background-color: var(--bg);
+  color: var(--color-text);
 }
-.dark-mode body {
-  background-color: #091a28;
-  color: #ebf4f1;
-}
-.sepia-mode body {
-  background-color: #f1e7d0;
-  color: #433422;
-}
+
 h1 {
   color: var(--color-primary);
 }
