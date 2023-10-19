@@ -1,13 +1,11 @@
 <template>
   <div>
-    <h1>首頁: {{ count }}</h1>
-    <button @click="addCount">add</button>
+    <h1>首頁:</h1>
+    <button>add</button>
     <Card />
   </div>
 </template>
 
-<script setup>
-const { count, addCount } = useAddCount();
-</script>
+<script setup></script>
 
 <style scoped></style>
