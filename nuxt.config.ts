@@ -21,7 +21,13 @@ export default defineNuxtConfig({
   },
   "modules": ['@pinia/nuxt', '@nuxtjs/color-mode'],
   colorMode: {
-      // preference: 'light', // 預設主題
-      dataValue: 'theme', // html 標籤中的主題
+    preference: 'system', // default value of $colorMode.preference
+    fallback: 'light', // fallback value if not system preference found
+    hid: 'nuxt-color-mode-script',
+    globalName: '__NUXT_COLOR_MODE__',
+    componentName: 'ColorScheme',
+    classPrefix: '',
+    classSuffix: '-mode',
+    storageKey: 'nuxt-color-mode'
   },
 })
