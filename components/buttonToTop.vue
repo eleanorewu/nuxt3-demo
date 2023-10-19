@@ -41,7 +41,7 @@ export default defineComponent({
   height: 48px;
   background-color: var(--color-primary);
   color: var(--color-text);
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--color-primary);
   box-shadow: 0 0.25rem 0.5rem rgba(130, 130, 130, 0.15);
   border-radius: 3rem;
   font-size: 0.875rem;

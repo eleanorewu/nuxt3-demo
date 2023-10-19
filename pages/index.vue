@@ -1,6 +1,14 @@
 <template>
   <div>
-    <h1>Color mode: {{ $colorMode.value }}</h1>
+    <button>主題模式 {{ $colorMode.value }}</button>
+    <div class="msg-box">
+      <img
+        class="avatar"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJlE7FjHztLrji72AKd5EvLnj21j8YdicZOFhzJQhadw&s"
+        alt=""
+      />
+      <p class="msg" :key="msgContent">{{ msgContent }}</p>
+    </div>
     <select v-model="$colorMode.preference">
       <option value="system">System</option>
       <option value="light">Light</option>
@@ -26,17 +34,53 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
 const colorMode = useColorMode();
 console.log(colorMode.preference);
+
+const msgContent = ref("2024");
+setTimeout(() => {
+  msgContent.value = "就靠貓咪拯救世界";
+}, 1500);
 </script>
 
 <style scoped>
-body {
-  background-color: var(--bg);
-  color: var(--color-text);
-}
-
 h1 {
   color: var(--color-primary);
+}
+.msg-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  animation: openin 1s ease-in-out;
+  gap: 0.5rem;
+  margin: 1rem;
+  & img {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 2rem;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+  }
+  & .msg {
+    font-size: 1.25rem;
+    padding: 0.5rem 0.75rem;
+    color: var(--color-text);
+    background-color: var(--bg);
+    border: 1px solid var(--msg-border-color);
+    border-radius: 0.125rem 2rem 2rem;
+  }
+}
+
+@keyframes openin {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 </style>
