@@ -1,0 +1,66 @@
+:root {
+  /* Base Colors(RGB) */
+  --color-black: rgb(5, 5, 5);
+  --color-white: rgb(255, 255, 255);
+  --color-gray-900: rgb(6, 6, 6);
+  --color-gray-800: rgb(36, 36, 36);
+  --color-gray-700: rgb(69, 69, 69);
+  --color-gray-600: rgb(97, 97, 97);
+  --color-gray-500: rgb(128, 128, 128);
+  --color-gray-400: rgb(156, 156, 156);
+  --color-gray-300: rgb(184, 184, 184);
+  --color-gray-200: rgb(218, 218, 218);
+  --color-gray-100: rgb(240, 240, 240);
+  --color-gray-50: rgb(252, 252, 252);
+
+  /* Font */
+  --font-size-base: 1rem;
+  --font-family: system-ui, Helvetica, Arial, "Noto Sans TC", sans-serif;
+
+  /* Breakpint */
+  --breakpoint-375: 375px;
+  --breakpoint-560: 560px;
+  --breakpoint-768: 768px;
+  --breakpoint-960: 960px;
+  --breakpoint-1024: 1024px;
+  --breakpoint-1280: 1280px;
+  --breakpoint-1440: 1440px;
+  --breakpoint-1600: 1600px;
+  --breakpoint-1920: 1920px;
+
+  /* Theme Colors(RGB) */
+  --color-primary: rgb(255, 122, 185);
+  /* --color-primary-modified: rgb(254, 237, 243);
+  --color-primary-modified-dark: rgb(234, 79, 152);
+  --color-success: rgb(31, 139, 13);
+  --color-warning: rgb(251, 148, 31);
+  --color-danger: rgb(255, 46, 18);
+  --color-visited: rgb(95, 73, 210); */
+
+  /* Outline */
+  --outline-color: rgb(254, 186, 8);
+
+  /* link */
+  /* --link-color: var(--color-primary); */
+
+  /* Box-shadow */
+  --box-shadow: 0 0.75rem 1.125rem rgb(var(--color-black) / 15%);
+
+  /* Header */
+  /* --header-border-color: var(--border-color);
+  --skip-btn-color: var(--color-white);
+  --skip-btn-bg: var(--color-black);
+  --skip-btn-color-default: rgb(255, 255, 255);
+  --skip-btn-bg--default: rgb(33, 33, 33);
+  --menubar-mobile-bg-default: rgb(33, 33, 33); */
+
+  /* Footer */
+  /* --footer-border-color: var(--border-color);
+  --footer-bg-default: rgb(33, 33, 33);
+  --footer-color-default: rgb(255, 255, 255);
+  --footer-link-color-default: rgb(255, 255, 255);
+  --footer-border-color-default: rgb(187, 187, 187); */
+
+  /* noscript */
+  --noscript-bg: var(--color-white);
+}

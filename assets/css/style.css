@@ -1,0 +1,9 @@
+/*************************
+  Import & Cascade Layers
+*************************/
+
+@import url(@/assets/css/variables.css);
+@layer reset, ui, vendor, variations, utilities, print;
+@import url(@/assets/css/reset.css) layer(reset);
+@import url(@/assets/css/ui.css) layer(ui); /* layouts and pages*/
+@import url(@/assets/css/utilities.css) layer(utilities);

@@ -2,11 +2,22 @@
   <div>
     <h1>首頁:</h1>
     <button>add</button>
-    <NuxtLink to="/about">關於我們</NuxtLink>
+    <NuxtLink to="/about" title="關於我們">關於我們</NuxtLink><br />
+    <NuxtLink
+      to="https://store.line.me/stickershop/product/24123123/zh-Hant"
+      title="另開新視窗 前往line貼圖"
+      target="_blank"
+      external
+      >line貼圖</NuxtLink
+    >
     <Card />
   </div>
 </template>
 
 <script setup></script>
 
-<style scoped></style>
+<style scoped>
+h1 {
+  color: var(--color-primary);
+}
+</style>
