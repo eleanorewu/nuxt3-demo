@@ -29,7 +29,7 @@
   --breakpoint-1920: 1920px;
 
   /* Theme Colors(RGB) */
-  --color-primary: rgb(122, 85, 255);
+  /* --color-primary: rgb(122, 85, 255); */
 
   /* Outline */
   --outline-color: rgb(254, 186, 8);
@@ -46,7 +46,7 @@
 *************************/
 .dark-mode {
   --color-text: #ebf4f1;
-  --color-primary: #41b38a;
+  --color-primary: #7926d8;
   --color-secondary: #fdf9f3;
   --bg: #121212;
   --border-color: #3b3b3b;
@@ -54,7 +54,7 @@
 
 .light-mode {
   --color-text: #1a1a1a;
-  --color-primary: #6ee2b8;
+  --color-primary: #bf95ef;
   --color-secondary: #101010;
   --bg: #ffffff;
   --border-color: #dadada;

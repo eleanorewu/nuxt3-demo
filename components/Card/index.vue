@@ -13,8 +13,8 @@ import Button from "@/components/Card/Button.vue";
 .card {
   width: 100%;
   height: 240px;
-  background: rgb(211, 211, 211);
-  color: black;
+  background: rgba(211, 211, 211, 0.4);
+  color: var(--color-text);
   border-radius: 0.5rem;
   margin: 1rem;
   text-align: center;
