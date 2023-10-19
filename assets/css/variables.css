@@ -41,6 +41,9 @@
   --noscript-bg: var(--color-white);
 }
 
+/*************************
+  ColorMode
+*************************/
 .dark-mode {
   --color-text: #ebf4f1;
   --color-primary: #41b38a;
