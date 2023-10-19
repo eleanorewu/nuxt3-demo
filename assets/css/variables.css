@@ -29,38 +29,30 @@
   --breakpoint-1920: 1920px;
 
   /* Theme Colors(RGB) */
-  --color-primary: rgb(254, 178, 13);
-  /* --color-primary-modified: rgb(254, 237, 243);
-  --color-primary-modified-dark: rgb(234, 79, 152);
-  --color-success: rgb(31, 139, 13);
-  --color-warning: rgb(251, 148, 31);
-  --color-danger: rgb(255, 46, 18);
-  --color-visited: rgb(95, 73, 210); */
+  --color-primary: rgb(122, 85, 255);
 
   /* Outline */
   --outline-color: rgb(254, 186, 8);
 
   /* link */
-  /* --link-color: var(--color-primary); */
-
-  /* Box-shadow */
-  --box-shadow: 0 0.75rem 1.125rem rgb(var(--color-black) / 15%);
-
-  /* Header */
-  /* --header-border-color: var(--border-color);
-  --skip-btn-color: var(--color-white);
-  --skip-btn-bg: var(--color-black);
-  --skip-btn-color-default: rgb(255, 255, 255);
-  --skip-btn-bg--default: rgb(33, 33, 33);
-  --menubar-mobile-bg-default: rgb(33, 33, 33); */
-
-  /* Footer */
-  /* --footer-border-color: var(--border-color);
-  --footer-bg-default: rgb(33, 33, 33);
-  --footer-color-default: rgb(255, 255, 255);
-  --footer-link-color-default: rgb(255, 255, 255);
-  --footer-border-color-default: rgb(187, 187, 187); */
+  --link-color: var(--color-primary);
 
   /* noscript */
   --noscript-bg: var(--color-white);
+}
+
+.dark-mode {
+  --color-text: #ebf4f1;
+  --color-primary: #41b38a;
+  --color-secondary: #fdf9f3;
+  --bg: #121212;
+  --border-color: #3b3b3b;
+}
+
+.light-mode {
+  --color-text: #1a1a1a;
+  --color-primary: #6ee2b8;
+  --color-secondary: #101010;
+  --bg: #ffffff;
+  --border-color: #dadada;
 }
