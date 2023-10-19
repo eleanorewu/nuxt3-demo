@@ -48,14 +48,12 @@
   --color-text: #ebf4f1;
   --color-primary: #7926d8;
   --bg: #121212;
-  --border-color: #3b3b3b;
-  --msg-border-color: var(--color-gray-700);
+  --border-color: var(--color-gray-700);
 }
 
 .light-mode {
   --color-text: #1a1a1a;
   --color-primary: #bf95ef;
   --bg: #ffffff;
-  --border-color: #dadada;
-  --msg-border-color: var(--color-gray-200);
+  --border-color: var(--color-gray-200);
 }

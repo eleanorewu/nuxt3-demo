@@ -71,7 +71,7 @@ h1 {
     padding: 0.75rem 1rem;
     color: var(--color-text);
     background-color: var(--bg);
-    border: 1px solid var(--msg-border-color);
+    border: 1px solid var(--border-color);
     border-radius: 0.125rem 2rem 2rem;
   }
 }

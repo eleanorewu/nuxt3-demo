@@ -94,11 +94,11 @@ a {
 }
 
 button {
-  padding: 0.25rem 0.5rem;
+  padding: 0.35rem 0.5rem;
   border: 1px solid gray;
-  color: black;
-  background-color: white;
-  border-radius: 0.325rem;
+  color: var(--color-text);
+  background-color: var(--bg);
+  border-radius: 0.35rem;
   font-size: 1rem;
   margin: 0.5rem;
   & + button {
