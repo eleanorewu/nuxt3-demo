@@ -1,0 +1,105 @@
+/*************************
+  Basic
+*************************/
+* {
+  line-height: 1.25;
+  letter-spacing: 0.125rem;
+  word-spacing: normal;
+}
+
+html,
+body {
+  scroll-padding-top: 4rem;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  scroll-behavior: smooth;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.wrapper {
+  overflow-x: hidden;
+  background-color: white;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.625rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: purple;
+  transition: opacity 160ms ease-in;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+  &:hover {
+    opacity: 0.6;
+  }
+  &:active {
+    opacity: 1;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px yellow;
+  }
+  &:visited {
+    color: var(--color-visited);
+  }
+  &[role="button"] {
+    text-decoration: none;
+    &[aria-current="page"] {
+      box-shadow: 0 0 0 3px yellow;
+    }
+  }
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: 1px solid gray;
+  color: black;
+  background-color: white;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+  & + button {
+    /* margin-left: 1rem; */
+  }
+}

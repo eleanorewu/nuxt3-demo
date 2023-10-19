@@ -1,9 +1,14 @@
 <template>
-  <div>
-    <Header />
-    <slot />
-    <Footer />
-  </div>
+  <html>
+    <body class="wrapper">
+      <div class="layout">
+        <Header />
+        <slot />
+        <Footer />
+        <buttonToTop />
+      </div>
+    </body>
+  </html>
 </template>
 
 <script setup></script>
